@@ -1,0 +1,1 @@
+keytool -genkeypair -alias pfcti-jwt -keystore ~/key/pfcti.jks -keypass adminPFCTI123456789## -storepass adminPFCTI123456789## -keyalg RSA -keysize 2048 -validity 18250
