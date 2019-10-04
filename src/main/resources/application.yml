@@ -37,8 +37,8 @@ ldap:
 jwt:
   CLIENT_ID: {CLIENT_ID}
   SECRET_KEY: {SECRET_KEY}
-  KEY_STORE_FILE: pfcti.jks
-  KEY_STORE_PASSWORD: {KEY_STORE_PASSWORD}
+  KEY_STORE_FILE: pfcti.jks #-keystore
+  KEY_STORE_PASSWORD: {KEY_STORE_PASSWORD} #-storepass
   KEY_ALIAS: pfcti-jwt
-  JWK_KID: {JWK_KID}
+  JWK_KID: {JWK_KID} #-keypass
 
